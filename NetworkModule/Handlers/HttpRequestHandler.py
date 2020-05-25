@@ -5,6 +5,7 @@ from NetworkModule.Data.ExceptionsData.ServerLogicException import ServerLogicEx
 from NetworkModule.Handlers.MethodHandler import MethodHandler
 
 
+# noinspection PyPep8Naming
 class HttpRequestHandler(BaseHTTPRequestHandler):
     method_handler: MethodHandler
 
